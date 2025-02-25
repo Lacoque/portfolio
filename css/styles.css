@@ -4009,7 +4009,23 @@ td:last-child {
     position: relative;
 }
 
-.folio-entries .entry__info {
+.folio-entries .entry__info  {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrado perfecto */
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    width: 80%; /* Ancho relativo al contenedor padre */
+    max-width: 300px; /* Límite máximo para evitar que el texto se expanda demasiado */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    border-radius: 8px; /* Bordes redondeados opcionales */
+    transition: all 0.3s ease-in-out; /* Transición suave */
+}
+ /* {
     z-index   : 2;
     transform : translate(-50%, -50%);
     opacity   : 0;
@@ -4019,7 +4035,7 @@ td:last-child {
     top       : 50%;
     left      : 50%;
     width: 80%;
-}
+} */
 .folio-entries .entry__info-inner {
     position: relative;
     padding: 20px; /* Espaciado interno flexible */
@@ -4053,6 +4069,7 @@ td:last-child {
 .folio-entries .entry:hover .entry__link::before {
     opacity   : 1;
     visibility: visible;
+    transform: translate(-50%, -50%); 
 }
 
 .folio-entries .entry:focus .entry__info,
