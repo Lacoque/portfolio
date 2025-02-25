@@ -4287,3 +4287,18 @@ td:last-child {
         right: -2rem;
     }
 }
+/* Ocultar el texto original */
+.desc-more {
+    visibility: hidden;
+    position: relative;
+}
+
+/* Agregar el nuevo texto */
+.desc-more::after {
+    content: 'Ver más';
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: inherit; /* Mantener el mismo color de texto */
+}
