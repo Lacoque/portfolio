@@ -4078,14 +4078,17 @@ td:last-child {
     .folio-entries .entry__title {
         font-size: calc(var(--text-size) * 0.85);
     }
+    .folio-entries .entry__info {
+        padding: 10px; /* Reducir el espaciado interno para pantallas pequeñas */
+    }
 
-    .s-testimonials__slide {
+    /* .s-testimonials__slide {
         text-align: center;
     }
 
     .s-testimonials__cite {
         text-align: left;
-    }
+    } */
 }
 
 @media screen and (max-width: 500px) {
