@@ -4009,21 +4009,8 @@ td:last-child {
     position: relative;
 }
 
-.folio-entries .entry__info  {
-    z-index: 2;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centrado perfecto */
-    opacity: 0;
-    visibility: hidden;
-    text-align: center;
-    width: 80%; /* Ancho relativo al contenedor padre */
-    max-width: 300px; /* Límite máximo para evitar que el texto se expanda demasiado */
-   
-
-}
- /* {
+.folio-entries .entry__info  
+   {
     z-index   : 2;
     transform : translate(-50%, -50%);
     opacity   : 0;
@@ -4033,7 +4020,7 @@ td:last-child {
     top       : 50%;
     left      : 50%;
     width: 80%;
-} */
+} 
 
 
 .folio-entries .entry__cat,
