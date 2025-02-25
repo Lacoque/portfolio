@@ -4021,9 +4021,7 @@ td:last-child {
     width: 80%; /* Ancho relativo al contenedor padre */
     max-width: 300px; /* Límite máximo para evitar que el texto se expanda demasiado */
     padding: 20px; /* Espaciado interno */
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
-    border-radius: 8px; /* Bordes redondeados opcionales */
-    transition: all 0.3s ease-in-out; /* Transición suave */
+
 }
  /* {
     z-index   : 2;
