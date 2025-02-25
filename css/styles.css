@@ -4020,7 +4020,7 @@ td:last-child {
     text-align: center;
     width: 80%; /* Ancho relativo al contenedor padre */
     max-width: 300px; /* Límite máximo para evitar que el texto se expanda demasiado */
-    padding: 20px; /* Espaciado interno */
+   
 
 }
  /* {
@@ -4034,12 +4034,7 @@ td:last-child {
     left      : 50%;
     width: 80%;
 } */
-.folio-entries .entry__info-inner {
-    position: relative;
-    padding: 20px; /* Espaciado interno flexible */
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para mejorar la legibilidad */
-    border-radius: 8px; /* Bordes redondeados opcionales */
-}
+
 
 .folio-entries .entry__cat,
 .folio-entries .entry__title {
